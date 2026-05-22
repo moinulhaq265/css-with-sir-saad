@@ -1,0 +1,35 @@
+/* universal selector will be apply on all page  */
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+#heading{
+    font-size: 20px;
+    color: #bbb300;
+}
+#para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+    line-height: 30px;
+    color: rgba(125, 19, 213, 0.8);
+}
+.box{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    /* to take space from out side  */
+    margin: 100px; 
+    /* to take space inside container  */
+    padding: 20px;
+
+}
+
+#box2{
+    background-color: blueviolet;
+    color: black;
+    width: 200px;
+    height: 180px;
+    
+}

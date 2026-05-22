@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    width: 200px;
+    height: 180px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    /* margin with multiple values anti clock wise  */
+    margin: 5px 10px 15px 20px;
+    /* padding: with multiple values; */
+    padding: 55px 300px 35px 100px;
+    /* border radius will give circular like shape  */
+    border-radius: 80px;
+}
+span{
+    display: block;
+}
+strong{
+    display: inline;
+}

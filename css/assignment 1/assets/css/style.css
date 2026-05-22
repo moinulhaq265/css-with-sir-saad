@@ -1,0 +1,57 @@
+/* page color  */
+body{
+    background-color: #f4f7fb;
+}
+/* Use <h1> and style it using CSS: */
+h1{
+    color: blue;
+    font-size: 30px;
+}
+
+/* Write a short introduction about yourself (3–4 lines)
+Style it using CSS: */
+p{
+    color: gray;
+    font-size: 18px;
+}
+
+/* Create a div with:
+Width: 300px
+Height: 200px
+Background color: lightyellow
+Border: 2px solid black */
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: lightyellow;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Create a button with:
+Background color: green
+Text color: white
+Padding: 10px
+On hover: dark green */
+#button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+#button:hover{
+    background-color: darkgreen;
+}
+
+/* for videos  */
+#visual{
+    width: 400px;
+    height: 250px;
+}
+
+/* for audio  */
+.mp3{
+
+}
