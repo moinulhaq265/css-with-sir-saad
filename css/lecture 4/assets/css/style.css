@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    gap: 25px;
+    list-style: none; /* to vanish the points of list */
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.navbar li a:hover{
+    color: brown;
+}
+/* main section */
+.box{
+    display: inline-flex;
+    padding: 8px 10px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+/* grid-box */
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 10px;
+    
+}
+.grid-box div{
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+} 
